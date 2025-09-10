@@ -1,0 +1,42 @@
+{
+  "name": "cybertron-ai-platform-backend",
+  "version": "1.0.0",
+  "description": "Cybertron AI Platform - Microservices Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start-services.js",
+    "test": "node test-services.js",
+    "test:continuous": "node test-services.js --continuous",
+    "dev": "concurrently \"npm run dev:auth\" \"npm run dev:chat\" \"npm run dev:payment\" \"npm run dev:gateway\"",
+    "dev:auth": "cd services/auth-service && npm run dev",
+    "dev:chat": "cd services/chat-service && npm run dev",
+    "dev:payment": "cd services/payment-service && npm run dev",
+    "dev:gateway": "cd gateway && npm run dev",
+    "install:all": "npm install && cd services/auth-service && npm install && cd ../chat-service && npm install && cd ../payment-service && npm install && cd ../../gateway && npm install",
+    "build:all": "cd services/auth-service && npm run build && cd ../chat-service && npm run build && cd ../payment-service && npm run build && cd ../../gateway && npm run build",
+    "docker:build": "docker-compose build",
+    "docker:up": "docker-compose up -d",
+    "docker:down": "docker-compose down",
+    "docker:logs": "docker-compose logs -f",
+    "clean": "rm -rf node_modules && cd services/auth-service && rm -rf node_modules && cd ../chat-service && rm -rf node_modules && cd ../payment-service && rm -rf node_modules && cd ../../gateway && rm -rf node_modules"
+  },
+  "keywords": [
+    "microservices",
+    "graphql",
+    "apollo",
+    "mongodb",
+    "ai",
+    "chat",
+    "payment"
+  ],
+  "author": "Cybertron AI Team",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^1.6.0",
+    "concurrently": "^8.2.2"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+} 

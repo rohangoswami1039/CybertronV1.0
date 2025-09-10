@@ -1,0 +1,14 @@
+{
+  "name": "cybertron-shared-utils",
+  "version": "1.0.0",
+  "description": "Shared utilities for Cybertron AI Platform microservices",
+  "main": "index.js",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
