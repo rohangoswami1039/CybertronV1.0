@@ -1,4 +1,4 @@
-# Cybertron AI – The Ultimate All-in-One AI Creation, Automation & Media Intelligence Platform
+# Cybertron AI (Open Source) – The Ultimate All-in-One AI Creation, Automation & Media Intelligence Platform
 
 Cybertron AI is a next-generation, full-stack artificial intelligence ecosystem built for creators, marketers, developers, agencies, and enterprises. It unifies media generation, automation workflows, AI agents, creative design, and intelligent business tools under one powerful platform.
 
