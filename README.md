@@ -12,7 +12,7 @@ This document combines **all provided structures**, **all features**, **20+ AI t
 **Company:** ZooQ Inc.
 **Author:** ZooQ Engineering & AI Labs
 **License:** Personal & Non-Commercial Use Only
-**Repository:** [https://github.com/zooqinc/CybertronAI](https://github.com/zooqinc/CybertronAI)
+**Repository:** https://github.com/rohangoswami1039/CybertronV1.0
 **Category:** AI Tools • Generative Media • Automation • Creative Intelligence
 
 Cybertron AI is a futuristic platform enabling users to **generate, enhance, transform, automate, and deploy** advanced AI media systems at scale.
